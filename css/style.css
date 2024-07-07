@@ -25,7 +25,7 @@ body{
 /* ----- Genel Class Stilleri ----- */
 
 .container{
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -167,6 +167,9 @@ body{
     background-color: var(--white);
 }
 
+.address-list-item{
+    padding: 24px 0;;
+}
 
 /* --------------- OUR TEAM ALANI --------------- */
 
