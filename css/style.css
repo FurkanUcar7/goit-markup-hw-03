@@ -22,15 +22,62 @@ body{
     background-color: var(--white);
 }
 
-.header-address{
-    font-style: normal;
+/* ----- Genel Class Stilleri ----- */
+
+.container{
+    width: 1128px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-button, a{
-    cursor: pointer;
+/* -----P'ler için ortak stiller ----- */
+.address-item-link, .advantage-item-text, .team-member-role, .portfolio-category{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
+
+/* ----- H2ler için ortak stiller ------ */
+.team-title, .portfolio-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+/* ----- H3 ler için ortak stiller ----- */
+
+.advantage-item-title, .team-member-name, .portfolio-card-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
 
 /* ---------- HEADER ALANI ------------- */
+
+.header-content{
+    border-bottom: 1px solid var(--cornflower);
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+}
 
 .logo-content{
     font-family: var(--second-family);
@@ -40,10 +87,20 @@ button, a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    margin-right: 76px;
 }
 
 .logo-span{
     color: var(--navy-blue);
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list-item{
+    padding: 24px 0;
 }
 
 .nav-item-link{
@@ -65,14 +122,15 @@ button, a{
     color: var(--ocean);
 }
 
-.address-item-link{
-    font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
+.header-address{
+    display: flex;
+    align-items: center;
 }
 
+.address-list{
+    display: flex;
+    gap: 40px;
+}
 
 /* ----------- MAİN/HERO ALNI --------------- */
 
@@ -109,22 +167,6 @@ button, a{
     background-color: var(--white);
 }
 
-.advantage-item-title{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.advantage-item-text{
-    font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
 
 /* --------------- OUR TEAM ALANI --------------- */
 
@@ -132,37 +174,9 @@ button, a{
     background: var(--cloud);
 }
 
-.team-title{
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--navy-blue);
-}
 
 .team-member{
     background: var(--white);
-}
-
-
-.team-member-name{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.team-member-role{
-    font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
 /* ------------- OUR PORTFOLİO ALANI ---------------- */
@@ -171,34 +185,6 @@ button, a{
     background: var(--white);
 }
 
-.portfolio-title{
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--navy-blue);
-}
-
-
-.portfolio-card-title{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.portfolio-category{
-    font-family: var(--font-family);
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
 
 /* --------------- FOOTER ALANI ----------------- */
 
