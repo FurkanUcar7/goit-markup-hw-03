@@ -1,0 +1,219 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+        --iris: #4d5ae5;
+        --ocean: #404bbf;
+        --navy-blue: #2e2f42;
+        --green: #31d0aa;
+        --slate: #434455;
+        --light-slate: #8e8f99;
+        --cornflower: #e7e9fc;
+        --cloud: #f4f4fd;
+        --navy-blue-modal: rgba(46, 47, 66, 0.4);
+        --grey: rgba(46, 47, 66, 0.7);
+        --white: #fff;
+        --dairy: #fcfcfc;
+    }
+
+
+body{
+    font-family: var(--font-family);
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.header-address{
+    font-style: normal;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+/* ---------- HEADER ALANI ------------- */
+
+.logo-content{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo-span{
+    color: var(--navy-blue);
+}
+
+.nav-item-link{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+
+.nav-item-link:hover,
+.nav-item-link:active,
+.address-item-link:hover,
+.address-item-link:focus,
+.nav-item-link:focus
+{
+    color: var(--ocean);
+}
+
+.address-item-link{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+
+/* ----------- MAİN/HERO ALNI --------------- */
+
+.hero-content{
+    background: var(--navy-blue);
+}
+
+.hero-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-button{
+    background: var(--iris);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--ocean);
+}
+
+.advantage-list{
+    background-color: var(--white);
+}
+
+.advantage-item-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.advantage-item-text{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* --------------- OUR TEAM ALANI --------------- */
+
+.team{
+    background: var(--cloud);
+}
+
+.team-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+.team-member{
+    background: var(--white);
+}
+
+
+.team-member-name{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.team-member-role{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* ------------- OUR PORTFOLİO ALANI ---------------- */
+
+.portfolio-container{
+    background: var(--white);
+}
+
+.portfolio-title{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
+
+.portfolio-card-title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.portfolio-category{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* --------------- FOOTER ALANI ----------------- */
+
+footer{
+    background: var(--navy-blue);
+}
+
+.footer-text{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
+.logo-footer-span{
+    color: var(--cloud);
+}
