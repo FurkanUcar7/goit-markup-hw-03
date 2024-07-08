@@ -30,6 +30,14 @@ body{
     padding: 0 15px;
 }
 
+section{
+    padding: 120px 0;
+}
+
+.visually-hidden{
+    visibility: hidden;
+}
+
 /* -----P'ler için ortak stiller ----- */
 .address-item-link, .advantage-item-text, .team-member-role, .portfolio-category{
     font-family: var(--font-family);
@@ -60,6 +68,7 @@ body{
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
 
@@ -110,6 +119,7 @@ body{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding: 24px 0;
 }
 
 
@@ -176,12 +186,13 @@ body{
 
 .advantage-list{
     background-color: var(--white);
+    display: flex;
+    gap: 24px;
 }
 
-.address-list-item{
-    padding: 24px 0;;
+.advantage-item{
+    width: calc((100% - 72px) / 4);
 }
-
 /* --------------- OUR TEAM ALANI --------------- */
 
 .team{
